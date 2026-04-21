@@ -28,7 +28,7 @@ const Home = () => {
     <footer className="footer">
       <p>&copy; Copyright 2025</p>
       <p>Developed By Vinit Thote and Dattarya Mukde</p>
-      <p>CONTACT: 7350515037</p>
+      <p>CONTACT: 9764088598</p>
     </footer>
   </div>
 );
