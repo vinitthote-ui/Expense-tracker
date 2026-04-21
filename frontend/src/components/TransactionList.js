@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const TransactionList = ({ transactions, onDelete }) => {
   const handleDelete = async (id) => {
-    await axios.delete(`http://localhost:5000/api/transactions/${id}`);
+    await axios.delete(`/api/transactions/${id}`);
     onDelete();
   };
 

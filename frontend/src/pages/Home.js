@@ -8,7 +8,7 @@ const Home = () => {
   const [transactions, setTransactions] = useState([]);
 
   const fetchTransactions = async () => {
-    const res = await axios.get('http://localhost:5000/api/transactions');
+    const res = await axios.get('/api/transactions');
     setTransactions(res.data);
   };
 

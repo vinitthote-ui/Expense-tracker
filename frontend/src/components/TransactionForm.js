@@ -10,7 +10,7 @@ const TransactionForm = ({ onAdd }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post('http://localhost:5000/api/transactions', form);
+    await axios.post('/api/transactions', form);
     setForm({ title: '', amount: '', type: 'expense' });
     onAdd();
   };
